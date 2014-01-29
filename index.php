@@ -16,13 +16,18 @@
         <div id="contenedor">
             <div id="cabecera">
                 <div id="logo"></div>
-                <div id="buscador">
-                    <form role="form">
+                <div id="central">
+                    <div id="menuCentral">
 
-                        <input class="form-control" placeholder="Search...">
-
-                        <button type="submit" class="btn btn-default">Search</button>
-                    </form>
+                    </div>
+                    <div id="buscador">
+                        <form class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Search...">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </form>
+                    </div>
                 </div>
                 <div id="carro">
                     <table>
@@ -34,7 +39,7 @@
             </div>
             <div id="principal">
                 <div id="colIzquierda">
-                    <div id="menu">
+                    <div class="menu">
                         <h5>Categories</h5>
                         <ul>
                             <li>Mouse</li>
@@ -44,7 +49,49 @@
                         </ul>
                     </div>
                 </div>
-                <div id="colDerecha"></div>
+                <div id="colDerecha">
+
+                    <div id="productos">
+
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                        <div class="producto">
+                            <img src="img/productos/portatil1.jpg" />
+                            <h5>Ordenador portatil Alienware 14</h5>
+                            <span id="precio">1200€</span>      
+                            <a class="btn btn-danger btn-xs">Add</a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
             <div id="pie">
 
