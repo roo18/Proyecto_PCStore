@@ -18,7 +18,11 @@
                 <div id="logo"></div>
                 <div id="central">
                     <div id="menuCentral">
-
+                        <ul>
+                            <li><span class="glyphicon glyphicon-home"> Home</span></li>
+                            <li><span class="glyphicon glyphicon-user"> Register</span></li>
+                            <li><span class="glyphicon glyphicon-log-in"> Login</span></li>
+                        </ul>
                     </div>
                     <div id="buscador">
                         <form class="input-group input-group-sm">
@@ -29,12 +33,54 @@
                         </form>
                     </div>
                 </div>
-                <div id="carro">
-                    <table>
-                        <tr><td>Products:</td><td>5</td></tr>
-                        <tr><td>Price:</td><td>1524 €</td></tr>
-                        <tr><td></td><td><a class="btn btn-default btn-sm">Buy</a></td></tr>
-                    </table>
+                <div id="carrito">
+                    <div id="containTable">
+                        <table>
+                            <tr>
+                                <td class="col-xs-1">1</td>
+                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">1</td>
+                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">1</td>
+                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">1</td>
+                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">5</td>
+                                <td>Apple Mtón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">5</td>
+                                <td>Apple Mtón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">5</td>
+                                <td>Apple Mtón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">5</td>
+                                <td>Apple Mtón inalámbrico</td>
+                            </tr>
+                            <tr>
+                                <td class="col-xs-1">5</td>
+                                <td>Apple Mtón inalámbrico</td>
+                            </tr>
+
+                        </table>
+                    </div>
+                    <div id="containTotalButton">
+                        <div id="subtotal">
+                            Subtotal:<span>15480</span>€
+                            <a>Buy</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="principal">
@@ -51,44 +97,37 @@
                 </div>
                 <div id="colDerecha">
 
-                    <div id="productos">
+                    <div id="addSearch">
+                        <div id="search" class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="Search by name">
+                            <span class="input-group-btn">
+                                <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+                        <div id="add">
+                            <a class="btn btn-default btn-sm"><span class="glyphicon glyphicon-plus"></span> Add</a> 
+                        </div>
+                    </div>
 
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
-                        <div class="producto">
-                            <img src="img/productos/portatil1.jpg" />
-                            <h5>Ordenador portatil Alienware 14</h5>
-                            <span id="precio">1200€</span>      
-                            <a class="btn btn-danger btn-xs">Add</a>
-                        </div>
+                    <div id="adminTable">
+
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <td>#</td><td>Name</td><td>Surname</td><td>User</td><td>Pass</td><td>DNI</td><td>Edit</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td><td>#</td><td>#</td><td>#</td><td>#</td><td>#</td>
+                                    <td>
+                                        <a class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-edit"></span></a>
+                                        <a class="btn btn-default btn-xs" href="#"><span class="glyphicon glyphicon-trash"></span></a>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
                     </div>
 
                 </div>
