@@ -41,7 +41,6 @@ body{
     width: 90%;
     margin: 0 auto;
     height: 50px;
-    background-color: #B7514F;
 }
 
 #contenedor #cabecera #central #menuCentral ul{
@@ -49,6 +48,7 @@ body{
     margin: 0 auto;
     width: 100%;
     height: 50px;
+    border: dotted 1px #B7514F;
 
 }
 
@@ -65,7 +65,7 @@ body{
 }
 
 #contenedor #cabecera #central #menuCentral ul li:hover{
-    background-color: #96100D;
+    background-color: #B7514F;
 }
 
 #contenedor #cabecera #central #buscador{

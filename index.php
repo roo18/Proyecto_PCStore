@@ -19,9 +19,9 @@
                 <div id="central">
                     <div id="menuCentral">
                         <ul>
-                            <li><span class="glyphicon glyphicon-home"> Home</span></li>
-                            <li><span class="glyphicon glyphicon-user"> Register</span></li>
-                            <li><span class="glyphicon glyphicon-log-in"> Login</span></li>
+                            <li><span class="glyphicon glyphicon-home"></span>  Home</li>
+                            <li><span class="glyphicon glyphicon-user"></span>  Register</li>
+                            <li><span class="glyphicon glyphicon-log-in"></span>  Login</li>
                         </ul>
                     </div>
                     <div id="buscador">
@@ -35,49 +35,11 @@
                 </div>
                 <div id="carrito">
                     <div id="containTable">
-                        <table>
-                            <tr>
-                                <td class="col-xs-1">1</td>
-                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">1</td>
-                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">1</td>
-                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">1</td>
-                                <td>Apple Magic Mouse - Ratón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">5</td>
-                                <td>Apple Mtón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">5</td>
-                                <td>Apple Mtón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">5</td>
-                                <td>Apple Mtón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">5</td>
-                                <td>Apple Mtón inalámbrico</td>
-                            </tr>
-                            <tr>
-                                <td class="col-xs-1">5</td>
-                                <td>Apple Mtón inalámbrico</td>
-                            </tr>
 
-                        </table>
                     </div>
                     <div id="containTotalButton">
                         <div id="subtotal">
-                            Subtotal:<span>15480</span>€
+                            Subtotal:<span> 0 </span>€
                             <a>Buy</a>
                         </div>
                     </div>
