@@ -6,7 +6,7 @@ $(document).ready(function() {
         success: function(data) {
             var datos = '<div class="menu"><h5>Categories</h5><ul>';
             $.each(data, function(index) {
-                datos += '<li>' + data[index].nombre + '</li>';
+                datos += '<a href="index.php?categoria='+ data[index].id+'"><li>' + data[index].nombre + '</li></a>';
             });
             datos += '</ul></div>';
             $('#colIzquierda').html(datos);
@@ -21,6 +21,7 @@ $(document).ready(function() {
         url: 'php/productos.php',
         type: 'GET',
         success: function(data) {
+            alert("php/productos.php");
             var datos = '<div id="productos">';
             var oferta = '';
             var normal = '';

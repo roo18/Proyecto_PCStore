@@ -1,6 +1,7 @@
 <?php include 'config.php'; ?>
 <?php
-    $SQL = "SELECT * from productos;";
+    $categoria = $_GET["categoria"];
+    $SQL = "SELECT * FROM productos WHERE idcategoria = "+ $categoria +";";
     $result = mysql_query($SQL) or die("Couldnt execute query." . mysql_error());
     $i = 0;
     while ($fila = mysql_fetch_array($result, MYSQL_ASSOC)) {
