@@ -26,10 +26,10 @@ $(document).ready(function() {
             var normal = '';
             $.each(data, function(index) {
                 if (data[index].oferta==1) {
-                    oferta += '<div class="producto oferta"><img src="img/productos/' + data[index].imagen + '" /><h5>' + data[index].nombre + '<span class="carteloferta"> ¡OFERTA! </span></h5><span id="precio">' + data[index].precio + '€</span><a class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span> Add</a></div>';
+                    oferta += '<div class="producto oferta"><img src="img/productos/' + data[index].imagen + '" /><div class="titulo"><span class="carteloferta"> ¡OFERTA! </span>' + data[index].nombre + '</div><span id="precio">' + data[index].precio + '€</span><a class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span> Add</a></div>';
                 }
                 else {
-                    normal += '<div class="producto"><img src="img/productos/' + data[index].imagen + '" /><h5>' + data[index].nombre + '</h5><span id="precio">' + data[index].precio + '€</span><a class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span> Add</a></div>';
+                    normal += '<div class="producto"><img src="img/productos/' + data[index].imagen + '" /><div class="titulo">' + data[index].nombre + '</div><span id="precio">' + data[index].precio + '€</span><a class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-shopping-cart"></span> Add</a></div>';
                 }
             });
             datos += oferta;
