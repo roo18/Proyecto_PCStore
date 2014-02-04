@@ -189,11 +189,23 @@ body{
 }
 
 #contenedor #principal #colDerecha #productos .producto{
-    border: dotted 1px grey;
+    border: solid 1px #e5e5e5;
     width: 164px;
     padding: 7px;
     float: left;
     margin:0px 20px 15px 0px;
+}
+
+#contenedor #principal #colDerecha #productos .producto:hover{
+    box-shadow: 2px 2px 3px 0px rgba(50, 50, 50, 0.55);
+}
+
+#contenedor #principal #colDerecha #productos .oferta{
+    border: solid 1px #5cb85c;
+}
+
+#contenedor #principal #colDerecha #productos .oferta span.carteloferta{
+    color: #5cb85c;
 }
 
 #contenedor #principal #colDerecha #productos .producto img{
@@ -203,6 +215,7 @@ body{
 
 #contenedor #principal #colDerecha #productos .producto h5{
     font-weight: bold;
+    height: 2em;
 }
 
 #contenedor #principal #colDerecha #productos .producto #precio{
