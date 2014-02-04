@@ -11,6 +11,7 @@
         <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
         <script src="lib/bootstrap/js/bootstrap.js" type="text/javascript"></script>
         <script src="lib/jquery/js/jquery-2.0.3.min.js" type="text/javascript"></script>
+        <script src="js/funciones.js" type="text/javascript"> </script>
     </head>
     <body>
         <div id="contenedor">
