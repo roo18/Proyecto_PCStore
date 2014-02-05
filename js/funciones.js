@@ -1,3 +1,10 @@
+function getURLvar(var_name){
+  var re = new RegExp(var_name + "(?:=([^&]*))?", "i");
+  var pm = re.exec(decodeURIComponent(location.search));
+  if(pm === null) return undefined;
+  return pm[1] || "";
+}
+
 $(document).ready(function() {
     $.ajax({
         dataType: 'json',
@@ -6,7 +13,7 @@ $(document).ready(function() {
         success: function(data) {
             var datos = '<div class="menu"><h5>Categories</h5><ul>';
             $.each(data, function(index) {
-                datos += '<a href="index.php?categoria='+ data[index].id+'"><li>' + data[index].nombre + '</li></a>';
+                datos += '<a href="productos.php?categoria='+ data[index].nombre+'"><li>' + data[index].nombre + '</li></a>';
             });
             datos += '</ul></div>';
             $('#colIzquierda').html(datos);
@@ -16,12 +23,13 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
+    var categoria = getURLvar("categoria");
+    alert(categoria);
     $.ajax({
         dataType: 'json',
-        url: 'php/productos.php',
+        url: 'php/productos.php?categoria='+ categoria,
         type: 'GET',
         success: function(data) {
-            alert("php/productos.php");
             var datos = '<div id="productos">';
             var oferta = '';
             var normal = '';

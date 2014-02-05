@@ -1,8 +1,8 @@
 <?php include 'config.php'; ?>
 <?php
     $categoria = $_GET["categoria"];
-    $SQL = "SELECT * FROM productos WHERE idcategoria = "+ $categoria +";";
-    $result = mysql_query($SQL) or die("Couldnt execute query." . mysql_error());
+    $SQL = "SELECT * FROM productos WHERE 'idcategoria' LIKE "+ $categoria +";";
+    $result = mysql_query($SQL) or die("Couldn't execute query." . mysql_error());
     $i = 0;
     while ($fila = mysql_fetch_array($result, MYSQL_ASSOC)) {
         $datos[$i] = array('id' => $fila["id"], 'nombre' => $fila["nombre"], 'descripcion' => $fila["descripcion"], 'precio' => $fila["precio"], 'imagen' => $fila["imagen"], 'oferta' => $fila["oferta"]);
